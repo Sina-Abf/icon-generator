@@ -15,18 +15,20 @@ const Hero = () => {
           با <strong className=""> آیکی دانلود </strong> کلی از زمانت رو ذخیره
           کن و ساخت آیکون رو با هر موضوعی بسپار دست هوش مصنوعی
         </p>
-        <Button className="bg-green-600">بزن بریم!</Button>
-        <div className="w-full relative">
-          <Image
-            className="absolute right-28 -top-4 opacity-80"
-            src={arrow}
-            alt="arrow-icon"
-            width={100}
-            height={100}
-          />
-          <span className="absolute right-44 top-6 opacity-80">
-            به همین راحتی!
-          </span>
+        <div>
+          <Button className="bg-green-600">بزن بریم!</Button>
+          <div className="w-full relative">
+            <Image
+              className="absolute right-28 -top-4 opacity-80"
+              src={arrow}
+              alt="arrow-icon"
+              width={100}
+              height={100}
+            />
+            <span className="absolute right-44 top-6 opacity-80">
+              به همین راحتی!
+            </span>
+          </div>
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ const Button: FC<ButtonProps> = ({ className, children }) => {
   return (
     <button
       className={classNames(
-        "px-6 py-2 bg-zinc-500 rounded-md shadow-md",
+        "px-6 py-2  rounded-md shadow-md",
         "hover:bg-zinc-700 transition-colors duration-300",
         className
       )}

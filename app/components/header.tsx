@@ -10,7 +10,7 @@ const Header = () => {
           <li>نمونه آیکون ها</li>
         </ul>
         <div>
-          <Button>ورود</Button>
+          <Button className="bg-zinc-500">ورود</Button>
         </div>
       </nav>
     </header>

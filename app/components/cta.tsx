@@ -1,5 +1,4 @@
 import { DATA } from "@/public/data";
-import { FastIcon, SettingsIcon, UserIcon } from "../utils/icons";
 import CtaCard from "./cta-card";
 
 export interface Card {
@@ -10,7 +9,7 @@ export interface Card {
 
 const Cta = () => {
   return (
-    <section>
+    <section className="mb-24">
       <div className="md:text-center mb-12">
         <strong className="text-4xl">چرا آیکی دانلود؟</strong>
         <p className="mt-4">
