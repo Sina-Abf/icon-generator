@@ -2,7 +2,7 @@ import { Card } from "./cta";
 
 const CtaCard = ({ icon, title, description }: Card) => {
   return (
-    <li className="">
+    <li>
       <div className="flex items-center gap-x-4">
         <div className="bg-cyan-400 rounded-xl p-2 w-fit h-fit">{icon}</div>
         <h2 className="text-lg font-semibold">{title}</h2>

@@ -10,7 +10,7 @@ const Hero = () => {
         <Image src={banner2} alt="icon-generation" />
       </div>
       <div className="col-start-2">
-        <strong className="text-4xl ">با یه کلیک آیکون خودت رو بساز!</strong>
+        <h1 className="text-4xl font-bold">با یه کلیک آیکون خودت رو بساز!</h1>
         <p className="my-8 max-w-md">
           با <strong className=""> آیکی دانلود </strong> کلی از زمانت رو ذخیره
           کن و ساخت آیکون رو با هر موضوعی بسپار دست هوش مصنوعی

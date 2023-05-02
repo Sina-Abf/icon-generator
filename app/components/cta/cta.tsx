@@ -1,10 +1,11 @@
-import { DATA } from "@/public/data";
+import { CTA_DATA as data } from "@/public/data";
 import CtaCard from "./cta-card";
 
 export interface Card {
   icon: JSX.Element;
   title: string;
   description: string;
+  id?: number;
 }
 
 const Cta = () => {
@@ -18,10 +19,11 @@ const Cta = () => {
           بگیرید
         </p>
       </div>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 sm:gap-10">
-        {DATA.map((card) => {
+      <ul className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 sm:gap-10">
+        {data.map((card) => {
           return (
             <CtaCard
+              key={card.id}
               title={card.title}
               description={card.description}
               icon={card.icon}
