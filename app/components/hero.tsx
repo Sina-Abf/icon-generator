@@ -5,7 +5,7 @@ import Button from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="flex justify-center flex-col md:flex-row gap-14 ">
+    <section className="flex justify-center flex-col md:flex-row gap-14 mb-24">
       <div>
         <Image src={banner2} alt="icon-generation" />
       </div>
