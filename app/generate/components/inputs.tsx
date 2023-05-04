@@ -43,7 +43,6 @@ export function Input<T extends FieldValues>({
           classname
         )}
         type={type}
-        inputMode="numeric"
         id={name}
         {...register(name, { required: true })}
         name={name}
