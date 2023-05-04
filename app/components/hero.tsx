@@ -2,6 +2,7 @@ import Image from "next/image";
 import banner2 from "../../public/images/banner2.png";
 import arrow from "../../public/images/arrow.png";
 import Button from "./ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -16,7 +17,9 @@ const Hero = () => {
           کن و ساخت آیکون رو با هر موضوعی بسپار دست هوش مصنوعی
         </p>
         <div>
-          <Button className="bg-primary">بزن بریم!</Button>
+          <Button className="bg-primary">
+            <Link href="/generate">بزن بریم!</Link>
+          </Button>
           <div className="w-full relative">
             <Image
               className="absolute right-28 -top-4 opacity-80"
