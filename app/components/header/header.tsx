@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="mb-24">
       <nav className="flex items-center justify-between text-sm md:text-md lg:text-lg gap-x-4">
-        <Button className="bg-green-600 hidden sm:block">ورود</Button>
+        <Button className="bg-primary hidden sm:block">ورود</Button>
         <MobileHeader />
         <DesktopHeader />
         <div className="flex items-center gap-4">

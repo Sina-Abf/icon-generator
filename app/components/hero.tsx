@@ -16,7 +16,7 @@ const Hero = () => {
           کن و ساخت آیکون رو با هر موضوعی بسپار دست هوش مصنوعی
         </p>
         <div>
-          <Button className="bg-green-600">بزن بریم!</Button>
+          <Button className="bg-primary">بزن بریم!</Button>
           <div className="w-full relative">
             <Image
               className="absolute right-28 -top-4 opacity-80"

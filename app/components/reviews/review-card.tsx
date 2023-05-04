@@ -5,7 +5,7 @@ import classNames from "classnames";
 
 const ReviewCard = ({ name, username, comment, user_profile }: Reviews) => {
   return (
-    <li className="border border-white/30 bg-gray-900 rounded-lg p-4 shadow-xl py-6">
+    <li className="border border-white/30 bg-background-darker rounded-lg p-4 shadow-xl py-6">
       <div className="flex items-center gap-x-4 mb-4">
         <Image
           className="rounded-full"

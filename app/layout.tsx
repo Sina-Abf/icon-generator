@@ -51,7 +51,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fa" dir="rtl" className={`${vazir.variable}`}>
-      <body className="bg-gray-800 p-8 text-white container mx-auto max-w-screen-xl scrollbar scrollbar-thumb-gray-500 scrollbar-track-gray-700">
+      <body className="bg-background p-8 text-white container mx-auto max-w-screen-xl scrollbar scrollbar-thumb-gray-500 scrollbar-track-gray-700">
         <Header />
         <main className="grid place-items-center">{children}</main>
         <Footer />
