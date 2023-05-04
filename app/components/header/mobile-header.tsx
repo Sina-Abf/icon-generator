@@ -1,12 +1,18 @@
 "use client";
 
-import { useState } from "react";
-import Button from "../ui/button";
+import { useEffect, useState } from "react";
 import { CloseIcon, HamburgerIcon } from "@/app/utils/icons";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const MobileHeader = () => {
   const [menu, setMenu] = useState<boolean>(false);
+  const router = usePathname();
+
+  useEffect(() => {
+    setMenu(false);
+  }, [router]);
+
   return (
     <>
       <button onClick={() => setMenu((prev) => !prev)} className="sm:hidden">
