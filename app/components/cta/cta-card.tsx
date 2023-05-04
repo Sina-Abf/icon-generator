@@ -7,9 +7,7 @@ const CtaCard = ({ icon, title, description }: Card) => {
         <div className="bg-secondary rounded-xl p-2 w-fit h-fit">{icon}</div>
         <h2 className="text-lg font-semibold">{title}</h2>
       </div>
-      <p className="mr-14 text-sm opacity-90 max-w-sm md:max-w-[15rem]">
-        {description}
-      </p>
+      <p className="mr-14 text-sm max-w-sm md:max-w-[15rem]">{description}</p>
     </li>
   );
 };
