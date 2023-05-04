@@ -9,8 +9,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
-      <div className="w-full">
+    <section className=" w-full">
+      <div className="mb-12">
         <h1 className="text-4xl font-bold mb-4">آیکونت رو بساز!</h1>
         <p>
           دوست من، ممکنه که نتیجه نهایی عین همون چیزی که دقیقا میخواستی نباشه
@@ -18,6 +18,6 @@ export default function RootLayout({
         </p>
       </div>
       {children}
-    </>
+    </section>
   );
 }

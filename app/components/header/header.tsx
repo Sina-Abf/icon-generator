@@ -1,6 +1,7 @@
 import MobileHeader from "./mobile-header";
 import Button from "../ui/button";
 import DesktopHeader from "./desktop-header";
+import Link from "next/link";
 const Header = () => {
   return (
     <header className="mb-24">
@@ -9,7 +10,7 @@ const Header = () => {
         <MobileHeader />
         <DesktopHeader />
         <div className="flex items-center gap-4">
-          <span>Logo</span>
+          <Link href="/">Logo</Link>
         </div>
       </nav>
     </header>

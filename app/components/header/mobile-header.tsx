@@ -12,7 +12,7 @@ const MobileHeader = () => {
         {menu ? <CloseIcon /> : <HamburgerIcon />}
       </button>
       {menu && (
-        <ul className="bg-background-darker sm:hidden flex p-4 gap-y-4 pb-8 items-start flex-col rounded-xl w-screen max-w-md h-36 absolute top-[160px] left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <ul className="bg-background-darker sm:hidden z-20 flex p-4 gap-y-4 pb-8 items-start flex-col rounded-xl w-screen max-w-md h-36 absolute top-[160px] left-1/2 -translate-x-1/2 -translate-y-1/2">
           <li className="hover:text-secondary cursor-pointer transition-colors duration-300 text-base md:text-xl">
             ایجاد آیکون
           </li>

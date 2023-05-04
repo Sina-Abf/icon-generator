@@ -4,9 +4,10 @@ import { FC } from "react";
 interface ButtonProps {
   className?: string;
   children: React.ReactNode;
+  disabled?: boolean;
 }
 
-const Button: FC<ButtonProps> = ({ className, children }) => {
+const Button: FC<ButtonProps> = ({ className, children, disabled }) => {
   return (
     <button
       className={classNames(
@@ -14,6 +15,7 @@ const Button: FC<ButtonProps> = ({ className, children }) => {
         "hover:bg-hover transition-colors duration-300",
         className
       )}
+      disabled={disabled}
     >
       {children}
     </button>

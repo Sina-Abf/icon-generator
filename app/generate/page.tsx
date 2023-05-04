@@ -1,4 +1,6 @@
+import Form from "./components/form";
+
 const GeneratePage = () => {
-  return <div></div>;
+  return <Form />;
 };
 export default GeneratePage;
