@@ -85,7 +85,7 @@ const StylesForm = ({
       <label className="font-semibold block text-2xl">
         3. استایل آیکون رو انتخاب کن
       </label>
-      <ul className="flex flex-wrap mt-8">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8 mt-8">
         {STYLES.map((style) => (
           <RadioWithImage
             key={style.id}

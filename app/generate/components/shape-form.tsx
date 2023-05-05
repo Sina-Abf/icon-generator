@@ -28,7 +28,7 @@ const ShapesForm = ({
       <label className="font-semibold block text-2xl">
         4. شکل آیکون رو انتخاب کن
       </label>
-      <ul className="flex flex-wrap mt-8">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8 mt-8">
         {SHAPES.map((shape) => (
           <RadioWithImage
             key={shape.id}
