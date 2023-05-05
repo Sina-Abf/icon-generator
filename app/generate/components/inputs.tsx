@@ -84,7 +84,7 @@ export function NumericInput<T extends FieldValues>({
         min={1}
         max={5}
         id={name}
-        {...register(name, { required: true })}
+        {...register(name, { required: true, max: 5, min: 1 })}
         name={name}
       />
       {/* @ts-ignore */}
