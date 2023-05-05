@@ -56,7 +56,7 @@ const ColorsForm = ({
       <label className="font-semibold block text-2xl">
         2. رنگ آیکون رو انتخاب کن
       </label>
-      <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 my-8">
+      <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-10 my-8">
         {COLORS.map((color) => (
           <Radio
             key={color.id}

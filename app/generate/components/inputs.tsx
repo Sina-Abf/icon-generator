@@ -35,7 +35,7 @@ export function Input<T extends FieldValues>({
       <input
         placeholder={placeholder}
         className={classNames(
-          "py-3 px-4 rounded-lg mb-4 bg-background min-w-[10rem] sm:min-w-[20rem]",
+          "py-3 px-4 rounded-lg mb-4 bg-background w-full max-w-sm md:max-w-md",
           {// prettier-ignore
           /* @ts-ignore */},
           errors[name] &&
@@ -72,7 +72,7 @@ export function NumericInput<T extends FieldValues>({
       <input
         placeholder={placeholder}
         className={classNames(
-          "py-3 px-4 rounded-lg mb-4 bg-background min-w-[10rem] sm:min-w-[20rem]",
+          "py-3 px-4 rounded-lg mb-4 bg-background w-full max-w-sm md:max-w-md",
           {// prettier-ignore
           /* @ts-ignore */},
           errors[name] &&
